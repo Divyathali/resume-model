@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+       <title>Resume Template</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <style>
+        progress {
+            display: block;
+        }
+        .img-circle{
+            border-radius:50%;
+            position:relative;
+            margin-left:40em;
+            height:180px;
+            border:5px dotted yellow;
+            position:absolute;
+        }
+        .circle{
+            position:absolute;
+            height:120px;
+            width:100px;
+            border-radius:50%;
+            border:3px solid white;
+            left:50%;
+            margin-left:-55px;
+            top: -40px;
+            }
+        .gray{
+            background-color:gray;
+            height:40px;  
+            margin-top:10px;
+            display:flex; 
+            flex-direction:row; 
+            text-align:center;
+        }
+        .white{
+              height:200px;
+              padding-top:15px;
+              display:flex; 
+              flex-direction:row; 
+              background:gray;
+              text-align:center;
+        }
+        .name{    
+            margin-top:0px;
+            background-color:yellow;
+            border-radius:5px;
+            font-size:40px;
+            width:220px;
+            height:60px;
+            margin-left:330px;
+            position:relative;
+        }
+        .address{
+            border-bottom:2px solid gray;
+            display:inline;
+            width:1515px;
+            margin-left:28em;
+        }
+        .tab1 { 
+            tab-size: 2; 
+        } 
+        @media screen and (-webkit-min-device-pixel-ratio:0) {
+            input[type='range'] {
+             overflow: hidden;
+             width: 180px;
+            -webkit-appearance: none;
+             background-color:white;
+            }
+    
+            input[type='range']::-webkit-slider-runnable-track {
+              height: 10px;
+              -webkit-appearance: none;
+              color: #13bba4;
+              margin-top: -1px;
+             }
+    
+            input[type='range']::-webkit-slider-thumb {
+             width: 10px;
+              -webkit-appearance: none;
+              height: 10px;
+              cursor: ew-resize;
+              background: #434343;
+              box-shadow: -80px 0 0 80px #43e5f7;
+        }
+
+    }
+/** FF*/
+input[type="range"]::-moz-range-progress {
+  background-color: #43e5f7; 
+}
+input[type="range"]::-moz-range-track {  
+  background-color: #9a905d;
+}
+/* IE*/
+input[type="range"]::-ms-fill-lower {
+  background-color: #43e5f7; 
+}
+input[type="range"]::-ms-fill-upper {  
+  background-color: #9a905d;
+}
+
+       </style>
+    </head>
+    <body>
+       <div>
+            <div class="white">
+                <img src="pic.jpg" class="img-circle">
+            </div>
+            <div class="gray">
+                <div class="name1">
+                      <div class="circle name"> Divyath ali</div>
+                </div>
+            </div>
+        </div>
+        <div class="address">
+             <a> 
+                  6/67 west street,kokkarayanpettai,Erode-7.
+                  |
+                  6374413806
+                  |
+                   divyathalishajahan@gmail.com
+              </a>
+        </div>     
+        <br><br>
+        <div style="display:inline-block; width:750px;border-right:1px solid gray;padding-left:20px;float:left;">
+                <h3> Profile </h3>
+                <p>To work in a challenging environment where I can contribute myself that enables me to cope with emerging as well as latest technologies by continuous improvement in my knowledge.</p>
+                <span> 
+                    <h3>Skills</h3>
+                    <p style="margin-left:20px;">
+                        HTML&emsp;&emsp; &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; <input type="range"/><br>
+                        CSS &emsp;&emsp;&nbsp; &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; <input type="range"/><br>
+                        JS &emsp;&emsp;&nbsp; &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; <input type="range"/><br>
+                        Python &emsp;&emsp;&nbsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; <input type="range"/><br>
+                        Embedded C &nbsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; <input type="range"/> <br>
+                        Verilog &emsp; &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; <input type="range"/><br>
+                        C &emsp;&emsp;&emsp;&nbsp;&nbsp; &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; <input type="range"/><br> 
+                        C++ &emsp;&emsp; &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; <input type="range"/><br> 
+                        React &nbsp;&nbsp;&emsp;&emsp;&nbsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; <input type="range"/><br>
+                        redux &nbsp;&nbsp;&emsp;&emsp;&nbsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; <input type="range"/><br>
+                        Mongo &nbsp;&emsp;&emsp;&nbsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; <input type="range"/><br>
+                        NodeJS &emsp;&emsp;&nbsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; <input type="range"/><br>
+                        Express &emsp;&emsp;&nbsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; <input type="range"/><br>
+                        Angular &emsp;&emsp;&nbsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; <input type="range"/><br>
+                    <p>
+                </span><br><br>                
+                <span>
+                <h3>Project details</h3>
+                   <ul>
+                      <li> Undertaken a Project on “RUNTIME OPTIMIZATION FOR FPGA ROUTING” that involves to optimization of routing and placement of FPGA.</li>
+                      <li>Undertaken a Project on “FAST AND MEMORY COMPACT ROUTINNG ALGORITHM FOR FPGA” which efficiently handles the data and prevent unnecessary routing traces.</li>
+                      <li>Undertaken a Project on “SECURING WIRELESS SENSOR NETWORKS USING AES ENCRYPTION” that involves securing wireless nodes in order to communicate with group tunneling protocol and hand shaking procedure are encrypted in AES encryption.</li>
+                      <li>Undertaken a Mini-Project on “LINE FOLLOWER ROBOT” that involves controlling the robot movement by following a line that can be used in various industrial transportation.</li>
+                      <li>Undertaken a Mini-Project on “SMART WASHING MACHINES WITH REAL TIME CLOCK” involves controlling the motor rotation to perform three different operating mode.</li>
+                   </ul>
+                </span>
+        </div>
+
+        <div style="display:inline-block;padding-left:20px;width:600px; border-left:1px solid gray;">
+              <span>
+                  <h3>Area of Interest</h3>
+                  <ul>
+                     <li> Website design</li>
+                     <li>Embedded Programming</li>
+                     <li>RTL design</li>
+                     <li>VLSI Placement and Routing design</li>
+                 </ul>
+              </span><br>
+              
+              <h3> Responsible undertaken</h3>
+              <p>
+              <ul>
+                 <li>Organizer of the event “CIRCUIT DEBUGGING” in a National Level Technical Symposium conducted during September, 2015 in Bharathidasan institute of Technology. Trichy.</li>
+                 <li>Co - Organizer of the symposium TROY’15, a National Level Technical Symposium conducted during September 2015 in Bharathidasan institute of Technology. Trichy.</li>
+                 <li> Organizer of the symposium EXNORA’13 and EXNORA’14, a National Level Technical Symposium conducted during August 2013 and 2014 in UCE Pattukkottai campus, Pattukkottai.</li>
+                 <li> Office bearer of ECE Association in Bharathidasan institute of Technology, Trichy during 2015-16.</li>
+              </ul>
+              </p>
+              <span>
+              <h3>Extra-Curricular Activities</h3>
+              <ul>
+                 <li>Co-ordinated Gaming event Kho-Kho in Bharathidasan institute of Technology, Trichy.</li>
+                 <li>Have won first place in Kho-Kho inter-college tournament in University College of engineering,Pattukkottai.</li>
+                 <li>Member of “National social service” in University College of engineering,Pattukkottai.</li>
+              </ul>
+              </span>
+              
+              
+               <h3> Co-curricular Activity</h3>
+               <ul>
+                 <li>Participated and present the paper of “Memory efficient Routing algorithm for FPGA” in the conference held in Anna University-CEG campus, Chennai.</li>
+                 <li>Participated and present the paper of “Fast and Memory compact algorithm for FPGA” in IEEE 1st International Conference on Energy, Systems and Information Processing.</li>
+                 <li>Underwent a course on Network Administration in “Bharat Sanchar Nigam Limited “at Erode.</li>
+                 <li>Attended one days of workshop at "Ethical hacking and crypto security” at Tanjore.</li>
+                 <li>Attended one days of workshop at “Advanced digital design flow using Cadence” at MIT campus, Chennai.</li>
+                </ul>
+              
+        </div>
+        
+            
+        
+
+    </body>
+</html>
